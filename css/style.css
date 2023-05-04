@@ -1,0 +1,29 @@
+main{
+    display: grid;
+    grid-template-areas:
+    "he he"
+    "se se"
+    "ar as";
+}
+
+header{
+    grid-area: he;
+}
+
+section{
+    grid-area: se;
+}
+
+article{
+    grid-area: ar;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+article div{
+    border: 1px solid black;
+}
+
+aside{
+    grid-area: as;
+}
